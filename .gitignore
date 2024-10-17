@@ -1,0 +1,22 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios temporários
+temp/
+tmp/
+
+# Ignorar arquivos de configuração
+.env
+config.json
+
+# Ignorar dependências de projetos
+node_modules/
+vendor/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos especificos
+texte.html
+v1.html

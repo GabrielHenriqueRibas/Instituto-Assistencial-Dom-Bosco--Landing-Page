@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+#frase-nav{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.responsive-image {
+    height: 500px; 
+    width: auto;
+}
+
+@media (max-width: 640px) {
+    .responsive-image {
+        height: 400px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .responsive-image {
+        height: 400px; 
+    }
+}
+
+@media (min-width: 1025px) { 
+    .responsive-image {
+        height: 600px;
+    }
+}
