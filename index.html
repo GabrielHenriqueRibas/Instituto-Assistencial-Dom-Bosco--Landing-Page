@@ -14,45 +14,26 @@
     <title>Instituto Assistencial Dom Bosco</title>
   </head>
   <body>
-    <div class="relative">
-      <img
-        src="./assets/image/background-nav.png"
-        alt="Imagem de Fundo"
-        class="w-full h-auto"
-      />
+    <div id="Tela Inicial" class="relative">
+      <img src="./assets/image/background-nav.png" alt="Imagem de Fundo" class="w-full h-auto"/>
 
-      <div
-        class="absolute top-0 w-screen flex justify-between px-4 md:px-44 z-10"
-      >
-        <img
-          src="./assets/image/logo.png"
-          alt="Logo"
-          class="h-4 px-6 mt-4 md:mt-6 md:h-16"
-        />
-        <button id="menu-button" class="px-6 mt-4 md:hidden focus:outline-none">
-          <i class="bi bi-list"></i>
-        </button>
+      <div class="absolute top-0 w-screen flex justify-between px-24 md:px-44 z-10">
+        <img src="./assets/image/logo.png" alt="Logo" class="h-8 mt-8 md:mt-10 md:h-28"/>
       </div>
 
-      <div
-        class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center px-12 md:px-44 text-white z-10"
-      >
-        <h1
-          id="frase-nav"
-          class="mt-10 text-xl px-4 md:text-7xl text-center md:mt-24"
-        >
-          "Prometi a Deus que até meu último suspiro seria para os jovens” (São
-          João Bosco).
-        </h1>
-        <button
-          class="mt-2 px-3 py-0.5 border-2 rounded-full hover:bg-blue-900 hover:border-blue-900 md:px-6 md:py-1 md:mt-5"
-        >
-          <h1 class="text-xs md:text-base">Faça sua doação</h1>
-        </button>
+      <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+        <div>
+          <h1 id="text" class="text-3xl px-9 md:text-8xl text-center px-44 md:mt-24"></h1>  
+        </div>  
       </div>
+      <div class="fixed bottom-4 right-4 z-50">
+        <a href="https://wa.me/5542" target="_blank">
+            <img src="./assets/image/whats.png" alt="WhatsApp" class="animate-pulse w-48 h-auto bg-white rounded-full">
+        </a>
+      </div>    
     </div>
 
-    <div id="menu" class="hidden md:flex justify-center items-center bg-red-700 text-white z-20">
+    <div id="Menu" class="hidden md:flex justify-center items-center bg-red-700 text-white z-20">
       <a href="#Sobre" class="hover:bg-red-800 md:py-9 md:px-12 py-2 px-4">
         Sobre
       </a>
@@ -149,7 +130,8 @@
             </div>
         </div>
 
-      <div id="JovemAprendiz" class="flex items-center justify-center px-4">
+      
+        <div id="JovemAprendiz" class="flex items-center justify-center px-4">
         <div class="flex flex-col gap-4 md:px-44 md:gap-6">
           <h1 class="flex justify-center text-xs font-medium tracking-widest text-indigo-950 md:text-base">
             PROGRAMA JOVEM APRENDIZ
@@ -204,6 +186,5 @@
 
     <footer></footer>
 
-    <script src="index.js"></script>
   </body>
 </html>
